@@ -1,0 +1,22 @@
+parameters: {}
+environment: {
+    APP_SECRET: "${APP_SECRET}"
+} 
+
+packages:
+    - name: api 
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: updatepayment
+          binary: false
+          main: ""
+          runtime: nodejs:default
+          web: true
+          webSecure: "${APP_SECRET}" 
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
