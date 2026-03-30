@@ -1,5 +1,5 @@
 parameters: {}
-environment: { APP_SECRET: '${APP_SECRET}' }
+environment: { APP_SECRET: '${APP_SECRET}', DATABASE_URL: '${db.DATABASE_URL' }
 
 packages:
   - name: api
@@ -8,10 +8,10 @@ packages:
     parameters: {}
     annotations: {}
     functions:
-      - name: hello
+      - name: rrupdatepayment
         binary: false
-        main: ''
-        runtime: nodejs:default
+        main: 'updateExpiredDate.main'
+        runtime: 'nodejs:22'
         web: true
         webSecure: '${APP_SECRET}'
         parameters: {}
