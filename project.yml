@@ -1,6 +1,7 @@
 parameters: {}
-environment: { APP_SECRET: '${APP_SECRET}', DATABASE_URL: '${db.DATABASE_URL}' }
-
+environment:
+  APP_SECRET: '${APP_SECRET}'
+  DATABASE_URL: '${DATABASE_URL}'
 packages:
   - name: api
     shared: false
