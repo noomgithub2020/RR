@@ -3,7 +3,7 @@ exports.main = async function main(event) {
     statusCode: 200,
     body: {
       ok: true,
-      message: 'rrupdatepayment reached',
+      message: 'rrpaymentupdate reached',
       event
     }
   };
