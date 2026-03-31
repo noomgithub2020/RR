@@ -1,6 +1,5 @@
 {
-  "name": "rrpaymentupdate",
-  "version": "1.0.0",
+  "main": "index.js",
   "dependencies": {
     "mysql2": "^3.14.0"
   }

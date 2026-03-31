@@ -1,12 +1,12 @@
-export function main(event) {
-  console.log('event:', JSON.stringify(event));
-
+function main(event) {
   return {
     statusCode: 200,
     body: {
       ok: true,
-      message: 'rrpaymentupdate reached',
+      message: "rrpaymentupdate reached",
       event
     }
   };
 }
+
+exports.main = main;
