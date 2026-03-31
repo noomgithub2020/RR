@@ -14,7 +14,7 @@ packages:
         main: 'index.js'
         runtime: 'nodejs:18'
         web: true
-        webSecure: false
+        webSecure: 'false'
         parameters: {}
         environment: {}
         annotations: {}
