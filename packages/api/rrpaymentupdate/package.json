@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "main": "index.js",
   "dependencies": {
     "mysql2": "^3.14.0"
