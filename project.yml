@@ -9,12 +9,12 @@ packages:
     parameters: {}
     annotations: {}
     functions:
-      - name: rrupdatepayment
+      - name: rrpaymentupdate
         binary: false
         main: 'index.js'
         runtime: 'nodejs:18'
         web: true
-        webSecure: '${APP_SECRET}'
+        webSecure: false
         parameters: {}
         environment: {}
         annotations: {}
