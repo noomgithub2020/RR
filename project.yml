@@ -11,7 +11,7 @@ packages:
     functions:
       - name: rrupdatepayment
         binary: false
-        main: 'updateExpiredDate.main'
+        main: 'rrupdatepayment.main'
         runtime: 'nodejs:22'
         web: true
         webSecure: '${APP_SECRET}'
