@@ -13,7 +13,7 @@ packages:
         binary: false
         runtime: 'nodejs:18'
         web: true
-        websecure: '${APP_SECRET}'
+        webSecure: '${APP_SECRET}'
         parameters: {}
         environment: {}
         annotations: {}
